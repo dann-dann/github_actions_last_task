@@ -1,6 +1,6 @@
 name: Ci/CD Pipeline to AWS ElasticBeanstalk
 env:
-    EB_PACKAGE_S3_BUCKET_NAME: "daniils-bucket"
+    EB_PACKAGE_S3_BUCKET_NAME: "elasticbeanstalk-eu-central-1-431384745395"
     EB_APPLICATION_NAME      : "daniils-gitactions"
     EB_ENVIRONMENT_NAME      : "Gitactions-daniils-env"
     DEPLOY_PACKAGE_NAME      : "php_daniils_${{ github.sha }}.zip"
